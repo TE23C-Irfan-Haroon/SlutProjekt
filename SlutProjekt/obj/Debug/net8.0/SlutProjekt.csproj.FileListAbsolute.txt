@@ -1,0 +1,15 @@
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\bin\Debug\net8.0\SlutProjekt.exe
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\bin\Debug\net8.0\SlutProjekt.deps.json
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\bin\Debug\net8.0\SlutProjekt.runtimeconfig.json
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\bin\Debug\net8.0\SlutProjekt.dll
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\bin\Debug\net8.0\SlutProjekt.pdb
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.AssemblyInfoInputs.cache
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.AssemblyInfo.cs
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.csproj.CoreCompileInputs.cache
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.sourcelink.json
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.dll
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\refint\SlutProjekt.dll
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.pdb
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\SlutProjekt.genruntimeconfig.cache
+C:\Users\haroon.irfan\Documents\programering 1\SlutProjekt\SlutProjekt\obj\Debug\net8.0\ref\SlutProjekt.dll

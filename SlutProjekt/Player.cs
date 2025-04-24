@@ -8,4 +8,6 @@ public class Player
     public int MaxDamage = 10;
     public int MinDamage = 2;
     public string username = "";
+
+    public int moneyPerClick = 1;
 }
