@@ -1,4 +1,5 @@
 
+using System.Runtime.InteropServices;
 using System.Security;
 
 public class Utils
@@ -42,7 +43,7 @@ public class Utils
 
             if (choice == ConsoleKey.Escape)
             {
-                
+                break;
             }
         }
 
@@ -55,7 +56,11 @@ public class Utils
         // shop där man kan köpa uppgraderingar
         while (true)
         {
-            int shopChoice = Utils.ShopMenu(player);
+            int shopChoice = Utils.ShopMenu(player, 
+                ["Upgrade Armor (Increase HP by 20)", "Upgrade Sword Damage (Increase MaxDamage by 10)", 
+                "Upgrade Sword Reliablity (Increase MinDamage by 2)"], 
+                [15, 20, 5]);
+        
 
             if (shopChoice == 1)
             {
@@ -77,7 +82,7 @@ public class Utils
 
         }
     }
-    public static int ShopMenu(Player player)
+    public static int ShopMenu(Player player, List<string> options, List<int> cost)
     {
         // Menyn för shopen
         Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -85,14 +90,17 @@ public class Utils
         Console.Clear();
         Console.WriteLine("Welcome to the Shop!");
         Console.WriteLine($"You have {player.coins} coins.");
-        Console.WriteLine("1. Upgrade Armor (Increase HP by 20)  Cost: 15 coins");
-        Console.WriteLine("2. Upgrade Sword Damage (Increase MaxDamage by 10)  Cost: 20 coins");
-        Console.WriteLine("3. Upgrade Sword Reliablity (Increase MinDamage by 2)  Cost: 5 coins");
-        Console.WriteLine("4. Exit Shop");
-        Console.WriteLine("Choose an option: 1, 2, 3, or 4");
+        
+        for (int i = 0; i < options.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {options[i]} Cost: {cost[i]} coins");
+        }
+        
+        Console.WriteLine($"{options.Count + 1}. Exit");
+        Console.Write("Choose an option (1-" + (options.Count + 1) + "): ");
 
         int shopChoice;
-        while (!int.TryParse(Console.ReadLine(), out shopChoice) || shopChoice < 1 || shopChoice > 4)
+        while (!int.TryParse(Console.ReadLine(), out shopChoice) || shopChoice < 1 || shopChoice > options.Count)
         {
             Console.WriteLine("Invalid input. Please Choose a valid option");
         }
